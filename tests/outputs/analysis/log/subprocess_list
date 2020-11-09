@@ -1,0 +1,5 @@
+  PID TTY      STAT   TIME COMMAND
+22653 pts/6    Ssl+   0:03 /home/macab/oasis_evaluation/bin/python3 /home/macab/oasis_evaluation/bin/oasislmf model run -C ../oasislmf.json -r ../tests/outputs/analysis
+22734 pts/6    S+     0:00  \_ bash /home/macab/OasisEvaluation/TestOasisEvaluation_GLP/Oasis_GLP/tests/outputs/analysis/run_ktools.sh
+23351 pts/6    R+     0:00      \_ ps f -g 22653
+23275 pts/6    S+     0:00 sleep 2
